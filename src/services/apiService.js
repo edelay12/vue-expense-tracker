@@ -7,7 +7,10 @@ export const ApiService = {
             query: `{
     expenses {
       id,
-      expense_name
+      expense_name,
+      amount,
+      category,
+      date_created
     }
   }`
           })
